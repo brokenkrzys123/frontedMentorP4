@@ -1,0 +1,27 @@
+a {
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+.special-btn {
+	border: none;
+	color: $main-color;
+	background-image: linear-gradient(
+		to right,
+		hsl(176, 68%, 64%),
+		hsl(198, 60%, 50%)
+	);
+	border-radius: 40px;
+	cursor: pointer;
+
+	&:hover {
+		background-image: linear-gradient(to right, hsl(176, 68%, 64%));
+	}
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1440px;
+}
